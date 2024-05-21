@@ -10,7 +10,7 @@ HardwareSerial ss(2); // Create a HardwareSerial object on UART2
 
 unsigned long previousMillis = millis(); // Stores the last time the data was saved
 const long interval = 60000; // Interval for saving data (1 minute)
-const long gpsInterval = 10000; // Interval to let the GPS get data
+const long gpsInterval = 10000; // Interval for getting data from GPS
 
 bool isSdSaving = true; // Flag to track whether SD saving is active
 bool isScreenOn = false; // Flag to track whether screen is active 
