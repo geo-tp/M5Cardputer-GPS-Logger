@@ -8,7 +8,7 @@ This project is a GPS logger using the M5Cardputer platform. It reads GPS data, 
 - <b>Old school</b> : Build or take the firmware.bin from the github release and flash it
 
 
-## Usage
+## Usage 
 
 
 - You will need a UART GPS module connected to the M5Cardputer and an inserted SD card.
